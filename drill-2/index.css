@@ -1,0 +1,98 @@
+#top {
+    background-color: white;
+    position: relative;
+}
+
+#content-box-top {
+  position: relative;
+  box-sizing: content-box;  
+  width: 100% - 10px;
+  height: 200px;
+  border: solid black 5px;
+  margin: 10px;
+}
+
+#square-one {
+ position: absolute;
+ background-color: purple;
+ height: 70%;
+ width: 30px;
+ left: 10px;
+ bottom: 10px;
+}
+
+#square-two {
+    position: absolute;
+    background-color: green;
+    height: 180px;
+    width: 425px;
+    left: 80px;
+    top: 10px;
+}
+
+#circle-one {
+    position: absolute;
+    background-color: rgb(8, 198, 198);
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    top: 15px;
+    left: 585px;
+}
+
+#content-box-middle {
+    position: relative;
+    box-sizing: content-box;
+    border: dotted black 5px;
+    width: 100% - 10px;
+    height: 200px;
+    margin: 10px;
+}
+
+#rectangle1 {
+    background-color: beige;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 20px;
+    z-index: 2;   
+}
+
+#rectangle-shadow {
+    background-color: black;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 6%;
+    top: 28px;
+    filter: blur(4px);
+}
+
+#content-box-bottom {
+    position: relative;
+    background-color: white;
+    box-sizing: content-box;
+    border: solid grey 1px;
+    width: 50%;
+    height: 200px;
+    left: 25%;
+}
+
+#text {
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    top: 25%;
+}
+
+#text2 {
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    top: 25%;
+}
